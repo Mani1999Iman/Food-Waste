@@ -9,10 +9,10 @@ body {
 
 h1 {
 	font-family: 'chewy', cursive;
-	font-size: 70px;
+	font-size: 74px;
 	color: #88ccd5;
 	text-align: center;
-	padding-bottom: 70px;
+	margin-bottom: 10px;
 	background-color: white;
 }
 
@@ -32,13 +32,17 @@ h1 {
 
 }
 
+section {
+	background-color: #f78888;
+	border-radius: 30px;
+	width: 500px;
+	height: 45px;
+}
 a:link {
 	color: #f3d250;
 	text-decoration: none;
-	border: solid #f78888;
 	border-radius: 50px;
 	background-color: #f78888;
-	padding: 2px;
 }
 
 a:hover {
